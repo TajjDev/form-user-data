@@ -1,0 +1,19 @@
+#container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+  }
+  
+  button {
+    margin-top: 12px;
+    width: 70%;
+    align-self: center;
+  }
+  p{
+    display: block;
+    margin: 0;
+    margin-bottom: 10px;
+    color: red;
+    }
+    
