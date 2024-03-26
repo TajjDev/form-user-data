@@ -48,30 +48,11 @@ export default function Form({ formSubmit }) {
     
     <div>
       <form id="container" onSubmit={HandleSubmit}>
-        <input
-          type="text"
-          placeholder="username"
-          name="username"
-          value={formData.username}
-          onChange={handleChange}
-          
-        />
-          <Username/> 
-        <input
-          type="email"
-          placeholder="email"
-          value={formData.email}
-          onChange={handleChange}
-          name="email"
-        />
+        <input type="text" placeholder="username" name="username" value={formData.username} onChange={handleChange} />
+        <Username/> 
+        <input type="email" placeholder="email" value={formData.email} onChange={handleChange} name="email" />
         <Email/>
-        <input
-          type="password"
-          placeholder="Enter password"
-          name="password"
-          value={formData.password}
-          onChange={handleChange}
-        />
+        <input type="password" placeholder="Enter password" name="password" value={formData.password} onChange={handleChange} />
         <Password/>
         <button >Submit</button>
       </form>
