@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import "./Form.css"
 
-export default function Form({ formSubmit ,text}) {
+export default function Form({ formSubmit }) {
   const [formData, setFormData] = useState({
     username: '',
     email: '',
@@ -34,11 +34,11 @@ export default function Form({ formSubmit ,text}) {
     
   };
 
-  const handleChange = (e) => {
+ const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData((prevData) => ({
       ...prevData,
-      [name]: name === 'imgUrl' ? URL.createObjectURL(files[0]) : value,
+      [name] : value,
     }));
   };
 
