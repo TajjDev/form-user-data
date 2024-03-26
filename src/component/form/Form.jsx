@@ -78,4 +78,3 @@ export default function Form({ formSubmit ,text}) {
     </div>
   );
 }
-
