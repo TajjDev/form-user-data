@@ -11,18 +11,18 @@ export default function Form({ formSubmit ,text}) {
 
   const Username=()=>{
     if (formData.username == "") {
-      return <p>Username</p>
+      return <p>Username can't be empty</p>
 
 }
   }
  const Email=()=>{
   if (formData.email == "") {
-      return <p>Email is required*</p>
+      return <p>Email can't be empty</p>
   }
  }
  const Password=()=>{
   if (formData.password == "") {
-      return <p>Password is required*/p>
+      return <p>Password can't be empty</p>
   }
  }
  const HandleSubmit = (e) => {e.preventDefault();
@@ -78,3 +78,4 @@ export default function Form({ formSubmit ,text}) {
     </div>
   );
 }
+
