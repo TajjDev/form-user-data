@@ -25,7 +25,7 @@ export default function Form({ formSubmit }) {
       return <p>Password is required*</p>
   }
  }
- const HandleSubmit = (e) => {e.preventDefault();
+ const HandleSubmit = (event) => {event.preventDefault();
     console.log(formData);
     if (formData.username && formData.email != "" && formData.password != "" ) {
       
@@ -34,8 +34,8 @@ export default function Form({ formSubmit }) {
     
   };
 
- const handleChange = (e) => {
-    const { name, value } = e.target;
+ const handleChange = (event) => {
+    const { name, value } = event.target;
     setFormData((prevData) => ({
       ...prevData,
       [name] : value,
