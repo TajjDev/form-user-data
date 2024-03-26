@@ -29,7 +29,7 @@ export default function Form({ formSubmit }) {
     if (formData.username && formData.email && formData.password !== "" ) {
      formSubmit(formData)
     console.log(formData);
-      formData.username  = "a"
+      formData.username  = ""
     }
     
   };
