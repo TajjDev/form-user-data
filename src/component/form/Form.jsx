@@ -26,10 +26,10 @@ export default function Form({ formSubmit }) {
   }
  }
  const HandleSubmit = (event) => {event.preventDefault();
-    console.log(formData);
     if (formData.username && formData.email && formData.password != "" ) {
      formSubmit(formData)
-      formData.username && formData.email && formData.password == ""
+    console.log(formData);
+      formData.username && formData.email && formData.password == " "
     }
     
   };
