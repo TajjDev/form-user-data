@@ -19,11 +19,12 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 h4{
-  display: flex;
-  text-wrap: wrap;
   margin-top: -10px;
   font-size: 15px;
   color: #646cff;
+  width: 200px;
+  font-weight: 500;
+  word-wrap: break-word;
 }
 input{
   height: 40px;
