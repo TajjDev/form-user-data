@@ -52,7 +52,7 @@ export default function Form({ formSubmit }) {
         <Email/>
         <input type="password" placeholder="Enter password" name="password" value={formData.password} onChange={handleChange} />
         <Password/>
-        <button >Submit</button>
+        <button >Submit Form</button>
       </form>
     </div>
   );
