@@ -27,7 +27,7 @@ export default function Form({ formSubmit}) {
   const auth1 = ()=>{
     if (formData.username === "") {
       document.getElementById("onee").innerHTML="",
-      document.getElementById("o").style.borderColor= "transparent"
+      document.getElementById("oo").style.borderColor= "transparent"
     }
   }
   const auth2 = ()=>{
